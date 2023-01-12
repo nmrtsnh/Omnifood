@@ -156,6 +156,7 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -164,6 +165,10 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   text-decoration: none;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 
   /* Put transition on original "state" */
   /* transition: background-color 0.3s; */
